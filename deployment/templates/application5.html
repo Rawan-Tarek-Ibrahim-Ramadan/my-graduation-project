@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Panic Prediction</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/application5.css') }}">
+</head>
+<body>
+  <div>
+ <form action="/output5" method="post" enctype="multipart/form-data">
+  <h1>Panic Prediction</h1>
+ <p>It helps you to know if you suffer from Panic or not</p>
+  <label for="file">Choose a CSV file:</label>
+  <input type="file" name="file" id="file"><br><br>
+  <input type="submit" value="Predict">
+  <img src="{{ url_for('static', filename='images/panic.jpg') }}" width="500" height="600">
+
+ </form>
+</div>
+
+</body>
+</html>
+
+
+
+

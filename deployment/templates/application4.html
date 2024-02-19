@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Mental Disorders Prediction</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/application.css') }}">
+</head>
+<body>
+  <div>
+ <form action="/output4" method="post" enctype="multipart/form-data">
+  <h1>Mental Disorders Prediction</h1>
+ <p>It helps you to know if you suffer from Mental disorder or not</p>
+  <label for="file">Choose a CSV file:</label>
+  <input type="file" name="file" id="file"><br><br>
+  <input type="submit" value="Predict">
+  <img src="{{ url_for('static', filename='images/mental.jpg') }}" width="500" height="600">
+
+ </form>
+</div>
+
+</body>
+</html>
+
+
+
+

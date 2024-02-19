@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>You are Healthy</title>
+  <style>
+    body{
+background-color:#FFE4E1;
+
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.content {
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  opacity: 0.2;
+  z-index: -1;
+
+}
+
+.text {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+img{
+    margin-left: 270px;
+}
+h2 {
+  margin-top: 0;
+  color: #555;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+  color: #333;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="background"></div>
+      <div class="text">
+        <img src="{{ url_for('static', filename='images/healthy.jpg') }}"  height="200px" >
+
+        <h1>Congratulation You are Healthy</h1>
+
+        <h2>Here is some tips to keep your mental health well:</h2>
+        <ul>
+          <li>Practice good self-care: It includes getting enough sleep, eating a healthy diet, and exercising regularly.
+        </li>
+          <li>Manage stress: Find healthy ways to manage stress, such as meditation, yoga, or deep breathing exercises.
+        </li>
+          <li>Build a support system: Surround yourself with supportive friends and family members who can provide emotional support when you need it.</li>
+          <li>Avoid drugs and alcohol: Substance abuse can worsen psychiatric disorders and make them more difficult to treat.
+        </li>
+        <li>Stay informed: Educate yourself about mental health issues and seek out reliable sources of information.
+        </li>
+        <li> Practice mindfulness: Mindfulness practices such as meditation and yoga can help you stay present in the moment and reduce anxiety and stress.
+        </li>
+        <li>Set realistic goals: Set achievable goals for yourself and celebrate your successes along the way.
+        </li>
+        <li>Take breaks: Take breaks throughout the day to recharge and relax.
+        </li>
+        <li> Be kind to yourself: Treat yourself with kindness and compassion, and don't be too hard on yourself if you experience setbacks or struggles.</li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>

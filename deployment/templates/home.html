@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Home</title>
+ <style>
+  body {
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    align-items: center;
+    background-color: #f4dbda;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/static/images/home.jpg');
+  }
+  html, body {
+      height: 100%;
+    }
+    
+    
+    
+    h1{
+        color: white;
+    }
+    
+
+    .container {
+      width: 80%;
+      text-align: center;
+    }
+    
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+    
+    .button {
+      width: 100%;
+      background-color: #bb8b8b;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bolder;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 25px; 
+    }
+    
+    .button:hover {
+      background-color:#d0a7a7;
+    }
+ </style>
+</head>
+<body>
+ <div class="center">
+  <div class="container">
+   <h1>Psychiatric Disorders prediction</h1>
+
+   <div class="button-container">
+    <button class="button" onclick="location.href='/application1'">Psychiatric Disorder Prediction</button>
+    <button class="button" onclick="location.href='/application2'">Depression Prediction</button> 
+    <button class="button" onclick="location.href='/application3'">Schizophrenia Prediction</button>
+    <button class="button" onclick="location.href='/application4'">Mental Disorder Prediction</button>
+    <button class="button" onclick="location.href='/application5'">Panic Disorder Prediction</button>
+
+
+  </div>
+ </div>
+</body>
+</html>
