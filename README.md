@@ -27,8 +27,9 @@ This folder contains the necessary files for deploying the project. Below is a d
 - **app.py**: This file is the main entry point for the application. It contains the code for running the project and handling requestsstaticic**: This folder contains static files such as CSS stylesheets, JavaScript files, and images that are used by the application
 - **templateses**: This folder contains HTML templates that define the structure and layout of the web pages.
 - **Pkl files and h5 files**: are used for the project's machine learning models or other data dependencies.
-- **models training**: This folder  contains files related to training and building machine learning models for the psychiatric diagnosis system
-  depression-dataset-analysis-and-machine-learning.ipynb.
-  eeg-psychiatric-disorders.ipnyp.
-  eeg-schizophrenia.ibnyb.
-  panic.ibnyb.
+    # models training
+   This folder  contains files related to training and building machine learning models for the psychiatric diagnosis system
+   depression-dataset-analysis-and-machine-learning.ipynb.
+   eeg-psychiatric-disorders.ipnyp.
+   eeg-schizophrenia.ibnyb.
+   panic.ibnyb.
