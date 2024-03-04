@@ -30,6 +30,6 @@ This folder contains the necessary files for deploying the project. Below is a d
     # models training
    This folder  contains files related to training and building machine learning models for the psychiatric diagnosis system
    -**depression-dataset-analysis-and-machine-learning.ipynb.**
-  -**eeg-psychiatric-disorders.ipnyp.**
+   -**eeg-psychiatric-disorders.ipnyp.**
    -**eeg-schizophrenia.ibnyb.**
    -**panic.ibnyb.**
