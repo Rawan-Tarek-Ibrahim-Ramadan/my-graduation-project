@@ -15,7 +15,9 @@ develop a diagnostic system that combines EEG data and subjective symptom assess
 
 ## Our System
 MindScan is a groundbreaking website that serves as a trusted companion on your journey to understanding mental health. It goes beyond mere questionnaires by integrating EEG data with personal experiences, providing a comprehensive view of your mental well-being. By combining traditional symptom assessments with detailed brain activity analysis, MindScan offers clear, personalized reports that empower individuals to make informed decisions about their mental health. Moreover, it provides invaluable support to healthcare professionals, enabling more accurate diagnoses and effective treatment plans.
-![Uploading image.png…]()  ![Uploading image.png…]()
+![image](https://github.com/Rawan-Tarek-Ibrahim-Ramadan/my-graduation-project/assets/99268869/89b0d968-4fc7-470c-9050-3e714aa33c7f)
+![image](https://github.com/Rawan-Tarek-Ibrahim-Ramadan/my-graduation-project/assets/99268869/9d71c5f8-4629-4cf5-b3c0-70fed0078a39)
+
 
 
 
