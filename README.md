@@ -24,8 +24,8 @@ MindScan is a groundbreaking website that serves as a trusted companion on your 
 
 This folder contains the necessary files for deploying the project. Below is a description of the contents:
 
-- **app.py**: This file is the main entry point for the application. It contains the code for running the project and handling request
-- **staticic**: This folder contains static files such as CSS stylesheets, JavaScript files, and images that are used by the application
+- **app.py**: This file is the main entry point for the application. It contains the code for running the project and handling request.
+- **static**: This folder contains static files such as CSS stylesheets, JavaScript files, and images that are used by the application.
 - **templateses**: This folder contains HTML templates that define the structure and layout of the web pages.
 - **Pkl files and h5 files**: are used for the project's machine learning models or other data dependencies.
     # models training
